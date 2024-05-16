@@ -4,6 +4,8 @@ import Definition from "../modules/Definition"
 import Companies from "../modules/Companies"
 import styles from "./HomePage.module.css"
 import Instruction from "../modules/Instruction"
+import Guide from "../modules/Guide"
+import Restrictions from "../modules/Restrictions"
 function HomePage() {
   return (
     <div className={styles.container}>
@@ -12,6 +14,8 @@ function HomePage() {
         <Definition />
         <Companies />
         <Instruction />
+        <Guide />
+        <Restrictions />
     </div>
   )
 }

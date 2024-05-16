@@ -5,7 +5,7 @@
 }
 
 .container h2 {
-  border-bottom: 5px solid #53c60b;
+  border-bottom: 5px solid #ff4d00;
   width: fit-content;
   margin-bottom: 50px;
   font-size: 1.9rem;
@@ -26,7 +26,7 @@
 
 .banner h3 {
   font-size: 1.3rem;
-  color: #53c60b;
+  color: #ff4d00;
 }
 
 .banner span {
@@ -61,7 +61,7 @@
 
 .details h4 {
   font-size: 1.5rem;
-  color: #53c60b;
+  color: #ff4d00;
   margin: 24px 0;
 }
 
@@ -77,7 +77,7 @@
 
 .details li::before {
   content: "• ";
-  color: #53c60b;
+  color: #ff4d00;
 }
 
 .details p {
@@ -96,7 +96,7 @@
 
 .recipe h4 {
   font-size: 1.5rem;
-  color: #53c60b;
+  color: #ff4d00;
   margin: 24px 0;
 }
 
@@ -113,17 +113,17 @@
 }
 
 .odd {
-  background-color: #e8ffdb;
+  background-color: #ffe8db;
 }
 
 .even {
-  background-color: #bcff93;
+  background-color: #ffb993;
 }
 
 .container button {
   width: 100%;
   border: none;
-  background-color: #53c60b;
+  background-color: #ff4d00;
   color: white;
   padding: 15px;
   font-size: 1.3rem;

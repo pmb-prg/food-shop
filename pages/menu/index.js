@@ -1,9 +1,20 @@
-import React from 'react'
+import MenuPages from '../../components/templates/MenuPage'
 
-function Menu() {
+function Menu({data}) {
   return (
-    <div>Menu</div>
+      <MenuPages data={data} />
   )
 }
 
 export default Menu
+
+//-------------------SSG(ISR)-------------------------------
+export async function getStaticProps(){
+  const res = await fetch("http://localhost:4000/data");
+  const data = await res.json();
+
+  return{
+    props: {data},
+    revalidate: 10,
+  }
+}

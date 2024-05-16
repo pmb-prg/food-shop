@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 270px;
-  box-shadow: rgba(92, 245, 115, 0.123) 0px 4px 16px,
+  box-shadow: rgba(245, 133, 92, 0.123) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
   margin-bottom: 40px;
   padding: 10px;
@@ -25,7 +25,7 @@
 }
 
 .details h4 {
-  color: #53c60b;
+  color: #ff4d00;
   font-weight: 500;
   font-size: 1rem;
 }
@@ -34,10 +34,12 @@
   display: flex;
   justify-content: left !important;
   align-items: center;
+  font-weight: bold;
 }
 
+
 .container a {
-  background-color: #53c60b;
+  background-color: #ff4d00;
   color: white;
   display: block;
   width: 100%;
@@ -48,11 +50,13 @@
 }
 
 .discount {
-  color: #ed4133;
+  color: #f12e18;
+  font-weight: bold;
+  padding: 2px;
 }
 
 .badge {
-  background-color: #ed4133;
+  background-color: #ed3333;
   color: white;
   padding: 4px;
   border-radius: 5px;

@@ -34,6 +34,10 @@
   width: fit-content;
   margin-top: 30px;
   border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.left a:hover{
+  transform: scale(1.1);
 }
 
 @media (max-width: 900px) {
